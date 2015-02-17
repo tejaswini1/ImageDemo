@@ -12,7 +12,7 @@ public class ImageScaler {
     public  BufferedImage resizeImage(BufferedImage image, int width, int height) throws IOException {
         int originalHeight=image.getHeight();
         int originalWidth=image.getWidth();
-        float originalAspectRatio=originalWidth/originalHeight;
+        float originalAspectRatio=(float)(originalWidth/originalHeight);
         float aspectRatio=width/height;
         if(aspectRatio!=originalAspectRatio) {
             height = (int)(width / originalAspectRatio);
