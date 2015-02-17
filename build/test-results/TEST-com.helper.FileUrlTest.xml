@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.helper.FileUrlTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-02-17T06:00:45" hostname="INTejaswini.local" time="0.0030">
+  <properties/>
+  <testcase name="testGetFileExtension" classname="com.helper.FileUrlTest" time="0.0030"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
